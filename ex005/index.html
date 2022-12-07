@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="exercício">
+  <meta name="author" content="marcos_silva">
+  <meta name="keywords" content="html, css, javascript">
+  <link rel="shortcut icon" type="image/x-icon" href="/ex002/imagem/Play.ico">
+  <title>Formulários</title>
+</head>
+<body>
+  <h1>Formulário text</H1>
+  <form>
+    
+    <label for="nome">nome</label>
+    
+    <input id="nome" type="text" placeholder="Digite seu nome" required>
+    <br><br>
+    
+    <label for="email">email</label>
+    
+    <input id="email"  type="email" placeholder="Digite seu email" required>
+    <br><br>
+    
+    <label for="senha">senha</label>
+    
+    <input id="senha" type="password" placeholder="Digite sua senha" required>
+    <br><br>
+    <hr>
+    <h1>Formulário rádio</h1>
+    
+    <input type="radio" id="dog" name="animal" value="Cachorro">
+    <label for="dog">cachorro</label>
+    
+    <input type="radio" id="cat" name="animal" value="Gato">
+    <label for="cat">gato</label>
+    
+    <input type="radio" id="bird" name="animal" value="Passarinho">
+    <label for="bird">passarinho</label>
+    <hr>
+    <h1>Formulário checkbox</h1>
+    
+    <input type="checkbox" name="item1" id="item1" value="Carro">
+    <label for="item1">carro</label>
+    
+    <input type="checkbox" name="item2" id="item2" value="Moto">
+    <label for="item2">moto</label>
+    
+    <input type="checkbox" name="item3" id="item2" value="Bicicleta">
+    <label for="item3">bicicleta</label>
+    <hr>
+    <h1>Selecionar select</h1>
+    
+    <select name="cores">
+        <option selected disabled value="">Selecionar um cor</option>
+      </optgroup>
+      <option value="Vermelho">Vermelho</option>
+      <option value="Azul">Azul</option>
+      <option value="Verde">Verde</option>
+      <option value="Amarelo">Amarelo</option>
+    </select>
+    <hr>
+    <h1>Mensagem</h1>
+    <label for="msg">deixe sua opinião sobre o vídeo</label>
+    <br>
+    <textarea name="Mensagem" id="msg"  placeholder="escreve sua opinião!" cols="30" rows="10"></textarea>
+    
+    <br>
+    <input type="submit" value="enviar formulário">
+  </form>
+  
+   <button><a href="/formulario.html">click aqui</a></button>
+  
+  
+</body>
+</html>

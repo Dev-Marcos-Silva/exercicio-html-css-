@@ -1,0 +1,32 @@
+@charset"utf8";
+
+/*
+em HTML id = em CSS #
+em HTML class = em CSS .
+*/
+
+body{
+  background-color: rgba(87,205,197,0.5);
+  
+}
+h1{
+  color: #574EFF;
+}
+#principal{
+  text-align: center;
+  background-color: rgba(255,174,23,0.8);
+  color: white;
+}
+
+h2{
+  color: #57AB63;
+}
+.inicio{
+  text-align: right;
+}
+.meio{
+  text-align: center
+}
+p{
+  text-align: justify;
+}
